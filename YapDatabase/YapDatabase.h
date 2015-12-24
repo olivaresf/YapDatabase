@@ -4,7 +4,6 @@
 #import "YapDatabaseConnection.h"
 #import "YapDatabaseTransaction.h"
 #import "YapDatabaseExtension.h"
-#import "YapDatabaseObject.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
