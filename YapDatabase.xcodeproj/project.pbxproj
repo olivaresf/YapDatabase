@@ -11,8 +11,8 @@
 		65580CA61BF36A020055E65C /* yap_vfs_shim.h in Headers */ = {isa = PBXBuildFile; fileRef = 65580CA41BF36A020055E65C /* yap_vfs_shim.h */; };
 		65580CA71BF36A9A0055E65C /* yap_vfs_shim.c in Sources */ = {isa = PBXBuildFile; fileRef = 65580CA31BF36A020055E65C /* yap_vfs_shim.c */; };
 		65580CA81BF36AA20055E65C /* yap_vfs_shim.h in Headers */ = {isa = PBXBuildFile; fileRef = 65580CA41BF36A020055E65C /* yap_vfs_shim.h */; };
-		C1AEA79A1C2C6DC30098FC85 /* YapDatabaseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = C1AEA7981C2C6DC30098FC85 /* YapDatabaseObject.h */; };
-		C1AEA79B1C2C6DC30098FC85 /* YapDatabaseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = C1AEA7981C2C6DC30098FC85 /* YapDatabaseObject.h */; };
+		C1AEA79A1C2C6DC30098FC85 /* YapDatabaseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = C1AEA7981C2C6DC30098FC85 /* YapDatabaseObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1AEA79B1C2C6DC30098FC85 /* YapDatabaseObject.h in Headers */ = {isa = PBXBuildFile; fileRef = C1AEA7981C2C6DC30098FC85 /* YapDatabaseObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1AEA79C1C2C6DC30098FC85 /* YapDatabaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C1AEA7991C2C6DC30098FC85 /* YapDatabaseObject.m */; };
 		C1AEA79D1C2C6DC30098FC85 /* YapDatabaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C1AEA7991C2C6DC30098FC85 /* YapDatabaseObject.m */; };
 		C1AEA7A01C2C6E240098FC85 /* NSString+randomString.h in Headers */ = {isa = PBXBuildFile; fileRef = C1AEA79E1C2C6E240098FC85 /* NSString+randomString.h */; };
@@ -1308,6 +1308,7 @@
 				DC6520F31BCEC77E00188E23 /* YapDatabaseView.h in Headers */,
 				DC65200F1BCEC77E00188E23 /* YDBCKRecordInfo.h in Headers */,
 				DC6521491BCEC77E00188E23 /* YapProxyObject.h in Headers */,
+				C1AEA79A1C2C6DC30098FC85 /* YapDatabaseObject.h in Headers */,
 				DC65213D1BCEC77E00188E23 /* YapCollectionKey.h in Headers */,
 				DC6520431BCEC77E00188E23 /* YapDatabaseFullTextSearchHandler.h in Headers */,
 				DC6520391BCEC77E00188E23 /* YapDatabaseFullTextSearchPrivate.h in Headers */,
@@ -1337,7 +1338,6 @@
 				DC65210F1BCEC77E00188E23 /* YapDatabaseConnectionState.h in Headers */,
 				DC6521131BCEC77E00188E23 /* YapDatabaseLogging.h in Headers */,
 				DC6521311BCEC77E00188E23 /* YapRowidSet.h in Headers */,
-				C1AEA79A1C2C6DC30098FC85 /* YapDatabaseObject.h in Headers */,
 				DC6520D31BCEC77E00188E23 /* YapDatabaseViewChangePrivate.h in Headers */,
 				DC6520DB1BCEC77E00188E23 /* YapDatabaseViewPageMetadata.h in Headers */,
 				DC6521171BCEC77E00188E23 /* YapDatabaseManager.h in Headers */,
@@ -1419,6 +1419,7 @@
 				DC6520BC1BCEC77E00188E23 /* YapDatabaseSecondaryIndex.h in Headers */,
 				DC6520A41BCEC77E00188E23 /* YapDatabaseSearchQueue.h in Headers */,
 				DC6520F01BCEC77E00188E23 /* YapDatabaseViewRangeOptions.h in Headers */,
+				C1AEA79B1C2C6DC30098FC85 /* YapDatabaseObject.h in Headers */,
 				DC6520F41BCEC77E00188E23 /* YapDatabaseView.h in Headers */,
 				DC6520101BCEC77E00188E23 /* YDBCKRecordInfo.h in Headers */,
 				DC65214A1BCEC77E00188E23 /* YapProxyObject.h in Headers */,
@@ -1451,7 +1452,6 @@
 				DC6521101BCEC77E00188E23 /* YapDatabaseConnectionState.h in Headers */,
 				DC6521141BCEC77E00188E23 /* YapDatabaseLogging.h in Headers */,
 				DC6521321BCEC77E00188E23 /* YapRowidSet.h in Headers */,
-				C1AEA79B1C2C6DC30098FC85 /* YapDatabaseObject.h in Headers */,
 				DC6520D41BCEC77E00188E23 /* YapDatabaseViewChangePrivate.h in Headers */,
 				DC6520DC1BCEC77E00188E23 /* YapDatabaseViewPageMetadata.h in Headers */,
 				DC6521181BCEC77E00188E23 /* YapDatabaseManager.h in Headers */,
