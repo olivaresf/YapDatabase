@@ -1,6 +1,6 @@
 //
-//  XocolatlModelObject.h
-//  Xocolatl
+//  YapModelObject.h
+//  YapDatabase
 //
 //  Created by Fernando Olivares on 5/6/15.
 //  Copyright (c) 2015 Quetzal. All rights reserved.
@@ -37,7 +37,7 @@
  *
  *  @return an array of objects that belong to this class.
  */
-+ (nonnull NSArray <__kindof XocolatlModelObject *> *)allObjectsUsingTransaction:(nonnull YapDatabaseReadTransaction *)transaction;
++ (nonnull NSArray <__kindof YapDatabaseObject *> *)allObjectsUsingTransaction:(nonnull YapDatabaseReadTransaction *)transaction;
 
 /**
  *  This is a query method in order to get one object of this class from the database. You must provide a transaction in order to fetch it. Internally, this method calls yapDatabaseCollectionIdentifier in order to fetch the objects from the database.

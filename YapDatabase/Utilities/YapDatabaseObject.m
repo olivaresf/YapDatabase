@@ -1,6 +1,6 @@
 //
-//  XocolatlModelObject.m
-//  Xocolatl
+//  YapDatabaseObject.m
+//  YapDatabase
 //
 //  Created by Fernando Olivares on 5/6/15.
 //  Copyright (c) 2015 Quetzal. All rights reserved.
@@ -11,9 +11,9 @@
 #import "NSString+randomString.h"
 #import <YapDatabase/YapDatabase.h>
 
-static NSString *const XocolatlModelObjectIdentifierKey = @"YapModelObjectIdentifierKey";
-static NSString *const XocolatlModelObjectCreatedAtKey = @"YapModelObjectCreatedAtKey";
-static NSString *const XocolatlModelObjectModifiedAtKey = @"YapModelObjectModifiedAtKey";
+static NSString *const YapDatabaseObjectIdentifierKey = @"YapModelObjectIdentifierKey";
+static NSString *const YapDatabaseObjectCreatedAtKey = @"YapModelObjectCreatedAtKey";
+static NSString *const YapDatabaseObjectModifiedAtKey = @"YapModelObjectModifiedAtKey";
 
 @interface YapDatabaseObject ()
 
@@ -44,18 +44,18 @@ static NSString *const XocolatlModelObjectModifiedAtKey = @"YapModelObjectModifi
         return nil;
     }
     
-    _identifier = [aDecoder decodeObjectForKey:XocolatlModelObjectIdentifierKey];
-    _createdAt = [aDecoder decodeObjectForKey:XocolatlModelObjectCreatedAtKey];
-    _modifiedAt = [aDecoder decodeObjectForKey:XocolatlModelObjectModifiedAtKey];
+    _identifier = [aDecoder decodeObjectForKey:YapDatabaseObjectIdentifierKey];
+    _createdAt = [aDecoder decodeObjectForKey:YapDatabaseObjectCreatedAtKey];
+    _modifiedAt = [aDecoder decodeObjectForKey:YapDatabaseObjectModifiedAtKey];
     
     return self;
 }
 
 - (void)encodeWithCoder:(NSCoder *)aCoder;
 {
-    [aCoder encodeObject:self.identifier forKey:XocolatlModelObjectIdentifierKey];
-    [aCoder encodeObject:self.createdAt forKey:XocolatlModelObjectCreatedAtKey];
-    [aCoder encodeObject:self.modifiedAt forKey:XocolatlModelObjectModifiedAtKey];
+    [aCoder encodeObject:self.identifier forKey:YapDatabaseObjectIdentifierKey];
+    [aCoder encodeObject:self.createdAt forKey:YapDatabaseObjectCreatedAtKey];
+    [aCoder encodeObject:self.modifiedAt forKey:YapDatabaseObjectModifiedAtKey];
 }
 
 #pragma mark - Loading and Saving
