@@ -1308,8 +1308,8 @@
 				DC6520F31BCEC77E00188E23 /* YapDatabaseView.h in Headers */,
 				DC65200F1BCEC77E00188E23 /* YDBCKRecordInfo.h in Headers */,
 				DC6521491BCEC77E00188E23 /* YapProxyObject.h in Headers */,
-				C1AEA79A1C2C6DC30098FC85 /* YapDatabaseObject.h in Headers */,
 				DC65213D1BCEC77E00188E23 /* YapCollectionKey.h in Headers */,
+				C1AEA79A1C2C6DC30098FC85 /* YapDatabaseObject.h in Headers */,
 				DC6520431BCEC77E00188E23 /* YapDatabaseFullTextSearchHandler.h in Headers */,
 				DC6520391BCEC77E00188E23 /* YapDatabaseFullTextSearchPrivate.h in Headers */,
 				DC302B471BE98DAC009F8C4D /* YapMutationStack.h in Headers */,
@@ -1694,7 +1694,6 @@
 				C1AEA7A21C2C6E240098FC85 /* NSString+randomString.m in Sources */,
 				DC6520E91BCEC77E00188E23 /* YapDatabaseViewChange.m in Sources */,
 				DC6520F11BCEC77E00188E23 /* YapDatabaseViewRangeOptions.m in Sources */,
-				C1AEA79C1C2C6DC30098FC85 /* YapDatabaseObject.m in Sources */,
 				DC6520051BCEC77E00188E23 /* YDBCKChangeSet.m in Sources */,
 				DC6520011BCEC77E00188E23 /* YDBCKRecordTableInfo.m in Sources */,
 				DC6520531BCEC77E00188E23 /* YapDatabaseHooks.m in Sources */,
@@ -1734,6 +1733,7 @@
 				DC65205B1BCEC77E00188E23 /* YapDatabaseHooksTransaction.m in Sources */,
 				DC65207B1BCEC77E00188E23 /* YapDatabaseRelationshipEdge.m in Sources */,
 				DC6520731BCEC77E00188E23 /* YapDatabaseRelationship.m in Sources */,
+				C1AEA79C1C2C6DC30098FC85 /* YapDatabaseObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
